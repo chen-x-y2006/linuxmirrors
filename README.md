@@ -3,11 +3,20 @@ linux  一键换源系统
 
 # Mirror Switcher - Linux 镜像源一键切换工具
 
-🚀 一个支持多发行版、多版本的 Linux 镜像源自动切换 Bash 脚本，帮助你快速将官方源替换为国内高速镜像（阿里、清华、中科大等），大幅提升软件包下载速度。
+![License](https://img.shields.io/github/license/your-username/mirror-switcher?style=flat-square)
+![Shell](https://img.shields.io/badge/Language-Bash-blue.svg)
+![Supported](https://img.shields.io/badge/Support-25%2B%20Distros-success)
+![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+
+> 🚀 支持 25+ 主流 Linux 发行版的镜像源自动切换，国内高速源一键配置！
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/your-username/mirror-switcher/main/screenshots/banner.png" alt="项目图示" width="80%">
+</p>
 
 ---
 
-## 支持的发行版与版本范围
+## 📦 支持系统一览
 
 | 发行版                       | 版本范围                    |
 |------------------------------|-----------------------------|
@@ -38,22 +47,19 @@ linux  一键换源系统
 
 ---
 
-## 功能特性
+## ✨ 项目亮点
 
-- ✅ 自动检测当前 Linux 发行版及版本  
-- ✅ 备份原始镜像源配置，保障安全  
-- ✅ 支持阿里云、清华大学、中国科技大学等国内主流镜像  
-- ✅ 支持交互式选择及命令行参数指定  
-- ✅ 多发行版、多版本全覆盖，适配 APT、YUM/DNF、Zypper、Pacman、APK 包管理器  
-- ✅ 结构清晰，方便后续扩展与维护  
+- 🔍 自动检测发行版和版本
+- ⚙️ 快速切换国内镜像源（阿里、清华、中科大等）
+- 🧰 支持 APT、YUM/DNF、Zypper、Pacman、APK 等主流包管理器
+- 💾 自动备份原始源配置文件
+- 🤖 交互和命令行两种操作方式
+- 🔄 易于扩展和维护，结构清晰
 
 ---
 
-## 快速开始
+## 🚀 快速开始
 
-### 克隆项目
+### ✅ 克隆仓库
 
 ```bash
-git clone https://github.com/<你的用户名>/mirror-switcher.git
-cd mirror-switcher
-chmod +x switch.sh
