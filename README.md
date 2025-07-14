@@ -59,6 +59,7 @@ linux  一键换源系统
 ## 🚀 快速开始
 
 ### ✅ 克隆仓库
-一键命令   bash <(curl   -sSL  110.41.144.25/chen.sh)  
+一键命令  
 
 ```bash
+****bash <(curl -sSL 110.41.144.25/chen.sh)
