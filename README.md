@@ -10,9 +10,7 @@ linux  一键换源系统
 
 > 🚀 支持 25+ 主流 Linux 发行版的镜像源自动切换，国内高速源一键配置！
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/mirror-switcher/main/screenshots/banner.png" alt="项目图示" width="80%">
-</p>
+
 
 ---
 
